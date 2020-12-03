@@ -1042,3 +1042,40 @@ h4 {
     text-align: center;
   }
 }
+
+/* formatting text that replaces images filled with only text */
+#bloc-2-services h2,
+blockquote,
+#bloc-4-portfolio h2 {
+  display: block;
+  margin: 16px auto;
+}
+
+#bloc-2-services h2 {
+  max-width: 613px;
+}
+#bloc-4-portfolio h2 {
+  max-width: 450px;
+}
+
+blockquote {
+  max-width: 562px;
+  text-align: center;
+  border-left: none;
+  color: #333;
+  quotes: "“" "”";
+}
+
+q {
+  font-style: italic;
+  font-size: 20px;
+}
+
+blockquote small {
+  color: #575757;
+  font-size: normal;
+}
+
+blockquote small:before {
+  content: "";
+}
