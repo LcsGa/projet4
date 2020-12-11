@@ -704,6 +704,8 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h2 {
@@ -1077,4 +1079,21 @@ blockquote small {
 
 blockquote small:before {
   content: "";
+}
+
+/* formating tap targets size for tablet/mobile  */
+@media (max-width: 768px) {
+  #bloc-8 li {
+    padding: 14px 0;
+    margin: 8px 0;
+  }
+
+  #bloc-8 .row:nth-child(3) {
+    padding: 0 40px;
+  }
+
+  #bloc-4-portfolio a {
+    display: flex;
+    justify-content: center;
+  }
 }
