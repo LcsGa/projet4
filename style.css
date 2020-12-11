@@ -1098,8 +1098,20 @@ blockquote small:before {
   }
 }
 
-/* Add focus style for keyboard navigation */
+/* Add focus style for keyboard navigation + current page style */
 *:focus {
   border: 2px solid #000;
   box-shadow: 0 0 0 2px #fff;
+}
+
+#current-page {
+  border: 0 solid #bb5c21;
+  border-width: 3px 0;
+}
+
+@media (max-width: 768px) {
+  #current-page {
+    border: none;
+    background: #ffae7b;
+  }
 }
