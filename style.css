@@ -1107,6 +1107,7 @@ blockquote small:before {
 #current-page {
   border: 0 solid #bb5c21;
   border-width: 3px 0;
+  margin: -3px 0;
 }
 
 @media (max-width: 768px) {
